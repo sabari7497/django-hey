@@ -12,7 +12,7 @@ setup(
     description='A Django command to create a project and app with a single command',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/django-hey',
+    url='https://github.com/sabari7497/django-hey',
     classifiers=[
         'Framework :: Django',
         'Programming Language :: Python :: 3',
