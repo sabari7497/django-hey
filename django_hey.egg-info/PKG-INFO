@@ -1,7 +1,32 @@
+Metadata-Version: 2.2
+Name: django-hey
+Version: 0.1.10
+Summary: A Django command to create a project and app with a single command
+Home-page: https://github.com/sabari7497/django-hey
+Author: Sabari Nathan
+Author-email: sabareee000@gmail.com
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: django>=3.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
 
 # Django Hey
 
-**Django Hey** is a lightweight, command-line utility that simplifies the process of initializing Django projects and applications. With a single command, it automates the creation of a Django project, an accompanying app, URL configurations, and a starter view—streamlining your workflow and letting you dive into development faster. Built for developers of all levels, `django-hey` ensures consistency and efficiency in setting up Django environments.
+**Django Hey** is a lightweight, command-line utility that simplifies the process of initializing Django projects and applications. With a single command, it automates the creation of a Django project, an accompanying app, URL configurations, and a starter viewâ€”streamlining your workflow and letting you dive into development faster. Built for developers of all levels, `django-hey` ensures consistency and efficiency in setting up Django environments.
 
 ## Key Features
 
@@ -112,7 +137,7 @@ django-hey is released under the MIT License. See the LICENSE file for full deta
 ## Author
 
 Developed by **Sabari Nathan**  
-📧 Email: sabareee000@gmail.com  
-💻 GitHub: [github.com/sabari7497](https://github.com/sabari7497)
+ðŸ“§ Email: sabareee000@gmail.com  
+ðŸ’» GitHub: [github.com/sabari7497](https://github.com/sabari7497)
 
 For questions, feedback, or support, feel free to reach out!
