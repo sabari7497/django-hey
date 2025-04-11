@@ -4,7 +4,7 @@ from django.core.management.base import BaseCommand
 from django.core.management import call_command
 
 class Command(BaseCommand):
-    help = 'Creates a Django project and app with a single command: django-hey django create <project_name> <app_name>'
+    help = 'Creates a Django project and app with a single command: hey django create <project_name> <app_name>'
 
     def add_arguments(self, parser):
         parser.add_argument('subcommand', help='Subcommand: django')
@@ -19,7 +19,7 @@ class Command(BaseCommand):
         app_name = options['app_name']
 
         if subcommand != 'django' or action != 'create':
-            self.stderr.write("Usage: django-hey django create <project_name> <app_name>")
+            self.stderr.write("Usage: hey django create <project_name> <app_name>")
             return
 
         # Step 1: Create the Django project

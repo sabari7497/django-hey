@@ -22,7 +22,7 @@ setup(
     python_requires='>=3.6',
     entry_points={
         'console_scripts': [
-            'django-hey=django_hey.management.commands.hey:main',
+            'hey=django_hey.management.commands.hey:main',
         ],
     },
 )
